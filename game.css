@@ -1,0 +1,22 @@
+body
+{
+	background-image:url("download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		background:rgb(62, 148, 112);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#btn_login{
+	height:100px;
+	width:125px;
+	font-size:30px;
+	border-radius:20px;
+}
