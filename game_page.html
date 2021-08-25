@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+	<div id = "div_score_display">
+		<h3><span id = "span_player1_name"></span> <span id = "span_player1_score">0</span></h3>
+		<h3><span id = "span_player2_name"></span> <span id = "span_player2_score">0</span></h3>
+	</div>
+
+<div class="container">
+	<center>
+		<h1 style="color: white;">Math Quiz</h1>
+		<h3 id = "question">question</h3>
+		<h3 id = "awnser">awnser</h3>
+
+		<div id = "output" class = "col-lg-6">
+
+		</div>
+
+
+		<br>
+		<br>
+		
+
+		<label>Multiplication <b style="color: rgb(32, 179, 39)">Put one number in each text input</b></label>
+
+		<input id = "number_input_1" type = "text" placeholder = "Type First Number Here" class = "form-control">
+        <br>
+        <input id = "number_input_2" type = "text" placeholder = "Type Second Number Here" class = "form-control">
+
+		<br>
+		<br>
+		<button onclick = "submit()" class = "btn btn-success">Submit Word</button>
+
+
+
+		
+
+	</center>
+</div>
+
+<script src="gamePage.js"></script>
+</body>
+</html>
